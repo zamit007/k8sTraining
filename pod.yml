@@ -1,11 +1,11 @@
-apiVersion:v1
-kind:Pod
+apiVersion: v1
+kind: Pod
 metadata:
-  name:pod1
+  name: pod1
 spec:
   containers:
-  - name:amit-nginx
-    image:nginx
+  - name: amit-nginx
+    image: nginx
     ports:
     - containerPort:8080
     
